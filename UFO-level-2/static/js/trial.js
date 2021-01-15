@@ -6,13 +6,28 @@ var sightings = data;
 var button_filter = d3.select("#filter-btn");
 var form = d3.select("form");
 
-// creating a function to filter the array in  data.js 
+function update_filters() {
+
+    var filters = {}
+        // key : val
+        // id : user_inp 
+    var filter_key = d3.select(this)
+    var filter_value = filter_key.property("value").toLowerCase()
+
+    filters[filter_key] = filter_value;
+
+    return filters
+
+}
+
+// Create function to sort data by user date 
 function filter_sightings() {
 
     // Prevent the page from refreshing 
     d3.event.preventDefault();
 
-    //Store the user input to variables
+    // Select the form element which holds input and store the user input to a variable 
+
 
     var user_date = d3.select("#datetime").property("value");
     var country = d3.select("#country").property("value").toLowerCase();
@@ -60,7 +75,7 @@ function filter_sightings() {
     })
 };
 
-
+d3.selectAll(".form-control").on("change", updateFilters);
 
 button_filter.on("click", filter_sightings);
-form.on("change", filter_sightings);
+form.on("submit", filter_sightings);
