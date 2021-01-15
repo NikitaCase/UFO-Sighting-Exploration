@@ -41,7 +41,6 @@ function filter_sightings() {
 
     // Clear what was previously displayed in table
     var tbody = d3.select("tbody");
-    console.log(tbody)
     tbody.html("");
 
 

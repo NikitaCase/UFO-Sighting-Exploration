@@ -56,9 +56,7 @@ function filter_sightings() {
 
     // Clear what was previously displayed in table
     var tbody = d3.select("tbody");
-    console.log(tbody)
     tbody.html("");
-
 
     // Iterate through selected sightings
     // add a new row for each sighting
@@ -75,7 +73,8 @@ function filter_sightings() {
     })
 };
 
-d3.selectAll(".form-control").on("change", updateFilters);
+
+d3.selectAll(".form-control").on("change", update_filters);
 
 button_filter.on("click", filter_sightings);
 form.on("submit", filter_sightings);
