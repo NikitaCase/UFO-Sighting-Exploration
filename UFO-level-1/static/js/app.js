@@ -4,6 +4,7 @@ var sightings = data;
 // Select areas of the page which will be used to sort and display data
 
 var button_filter = d3.select("#filter-btn");
+var button_clear = d3.select("#clear-btn");
 var form = d3.select("form");
 var tbody = d3.select("tbody");
 
