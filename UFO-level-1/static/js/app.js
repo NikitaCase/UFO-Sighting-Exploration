@@ -40,7 +40,6 @@ function filter_sightings() {
 
 // Clear table output 
 function clear_table() {
-    var tbody = d3.select("tbody");
     tbody.html("");
 };
 
