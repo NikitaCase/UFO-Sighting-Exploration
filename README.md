@@ -1,9 +1,9 @@
 # UFO FINDER 
-#### Aliens exist and they come to hover above US cities :alien:
+#### Aliens exist and they visit earth to hover above US cities :alien:
 
-## Project Introduction
+## Introduction
 
-This challenge uses a javascript file to allow users to filter though an array which stores UFO siting records. Records range from 1/1/2010 to 1/13/2010 and document sitings over the USA. 
+This challenge uses a javascript file to allow users to filter though an array which stores UFO siting records. Records range from 1/1/2010 to 1/13/2010 for sitings over the USA. 
 
 
 #### Level 1
@@ -31,6 +31,7 @@ And here's a screenshot:
 ![Level 2](UFO-level-2/static/images/ss-2-0.png)
 
 
+
 ## Technologies Used
 
  * Javascript (including d3)
@@ -40,11 +41,26 @@ And here's a screenshot:
  * CSS (inclusing bootstrap) 
  
  
+ 
 ## Links
-https://nikitacase.github.io/javascript-challenge/UFO-level-1/)
+https://nikitacase.github.io/javascript-challenge/UFO-level-1/
 
 
 https://nikitacase.github.io/javascript-challenge/UFO-level-2/ 
+
+
+
+## Folder Structure
+
+Levels 1 and 2 are separated into folders
+Each contains: 
+* index.html - main page
+
+* static folder
+
+  * data.js contains records of sightings
+  * app.js contains the cunctions which collect user input to filter data.js 
+  * trial.js failed attempts to create a function which filters an array by an object 
 
 
 
