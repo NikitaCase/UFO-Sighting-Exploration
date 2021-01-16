@@ -24,12 +24,9 @@ function update_filters() {
     var filter_value = d3.select(this).property("value");
     console.log(` key:   ${filter_key}  and value:  ${filter_value}`)
 
-
-
     filters[filter_key] = filter_value;
     console.log(filters)
 
-    // return filter_key, filter_value
 }
 
 
