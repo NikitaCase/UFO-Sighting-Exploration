@@ -10,7 +10,7 @@ This project uses a javascript file to allow users to filter though records of U
 
 Level 1 allows users to sort by date only. 
 
-You can try out a demo of the script here: [Level 1](https://nikitacase.github.io/javascript-challenge/UFO-level-1/) 
+You can try out a demo of the script here: [Level 1](https://nikitacase.github.io/UFO-Sighting-Exploration/UFO-level-1/) 
 
 
 And here's a screenshot
@@ -23,7 +23,7 @@ And here's a screenshot
 Level 2 allows users to sort by date, country, state, city and shape of the UFO siting
 
 
-You can try it out here: [Level 2](https://nikitacase.github.io/javascript-challenge/UFO-level-2/) 
+You can try it out here: [Level 2](https://nikitacase.github.io/UFO-Sighting-Exploration/UFO-level-2/) 
 
 
 And here's a screenshot: 
