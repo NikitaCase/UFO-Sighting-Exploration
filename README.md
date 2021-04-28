@@ -1,4 +1,4 @@
-# UFO FINDER 
+# UFO SIGHTING EXPLORATION 
 #### Aliens exist and occasionally they visit! :alien:
 
 ## Introduction
@@ -75,3 +75,5 @@ Each contains:
 ![Level 2](UFO-level-2/static/images/ss-2-2.png)
 
 
+
+~ Nikita Case
