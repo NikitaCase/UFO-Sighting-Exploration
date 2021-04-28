@@ -1,16 +1,16 @@
 # UFO FINDER 
-#### Aliens exist and they visit earth to hover above US cities :alien:
+#### Aliens exist and occasionally they visit! :alien:
 
 ## Introduction
 
-This challenge uses a javascript file to allow users to filter though an array which stores UFO siting records. Records range from 1/1/2010 to 1/13/2010 for sitings over the USA. 
+This project uses a javascript file to allow users to filter though records of UFO Sitings. Records a stored in the form of a javascript array and range from 1/1/2010 to 1/13/2010 for sitings over the USA. 
 
 
 #### Level 1
 
-Level 1 allows users to sort by date only
+Level 1 allows users to sort by date only. 
 
-You can view the hosted page here: [Level 1](https://nikitacase.github.io/javascript-challenge/UFO-level-1/) 
+You can try out a demo of the script here: [Level 1](https://nikitacase.github.io/javascript-challenge/UFO-level-1/) 
 
 
 And here's a screenshot
@@ -20,10 +20,10 @@ And here's a screenshot
 
 
 #### Level 2
-Level 1 allows users to sort by date, country, state, city and shape of the UFO siting
+Level 2 allows users to sort by date, country, state, city and shape of the UFO siting
 
 
-You can view the hosted page here: [Level 2](https://nikitacase.github.io/javascript-challenge/UFO-level-2/) 
+You can try it out here: [Level 2](https://nikitacase.github.io/javascript-challenge/UFO-level-2/) 
 
 
 And here's a screenshot: 
@@ -54,14 +54,13 @@ https://nikitacase.github.io/javascript-challenge/UFO-level-2/
 
 Levels 1 and 2 are separated into folders
 Each contains: 
-* index.html - main page
+* index.html - main page layout, has links to the data file and the javascript file which is used to filter the data
 
 * static folder
 
   * data.js contains records of sightings
-  * app.js contains the cunctions which collect user input to filter data.js 
-  * trial.js failed attempts to create a function which filters an array by an object 
-
+  * app.js contains the functions which collects user input to filter UFO citings
+  * style.css makes everything pretty
 
 
 ## Demo 
